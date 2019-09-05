@@ -13,6 +13,7 @@ namespace Secao6_RegFunc
             double salary, percentage;
 
             Console.Write("How many employees will be registered??? ");
+            Console.Write(" Realmente? ");
             qtde = int.Parse(Console.ReadLine());
 
             List<Funcionario> funcionarios = new List<Funcionario>();
